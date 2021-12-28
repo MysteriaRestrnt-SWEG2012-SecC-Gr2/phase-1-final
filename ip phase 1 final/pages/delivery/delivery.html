@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="charset" content="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="author" content="paulos">
+    <meta name="description" content="webpage for mysteria restaurant's delivery">
+    <meta name="keywords" content="delivery,mysteria">
+    <title>Delivery page</title>
+</head>
+<body bgcolor="PaleGoldenRod" link="white">
+<table  cellpadding="2" cellspacing="1" width="100%" align="left">
+    <tr>
+        <th  align=left>
+            <a href="../home/home.html"><img src="../../resources/images/MLOGO.png" width=190px; height=115px; alt="Mysteria Logo" align=center></a>
+        </th>
+        <th>
+            <marquee direction="left"><font face="Old English Text MT" color="saddlebrown" size="5"><h1 valign="top" >Mysteria Restaurant  </h1></font></marquee><hr color=saddlebrown> </th>
+        </th>
+        <th align="center" width="18%" bgcolor="saddlebrown">
+            <font  color=saddlebrown size=4 face=simsun>
+                <ul>
+                    <li><a href="../home/home.html"><font face=simsun color=seashell>Home</font></a></li>
+                    <li><a href="../review/about us2.html"><font face=simsun color=seashell>About Us</font></a></li>
+                    <li><a href="../review/contact.html"><font  face=simsun color=seashell>Contact Us</font></a></li>
+                    <li><a href="../review/Feedback2.html"><font face=simsun color=seashell>Feedback</font></a></li>
+                </ul>
+            </font>
+        </th>
+    </tr>
+    <tr height=700px bgcolor="PaleGoldenRod">
+        <td  valign="top" align="left" width="15%"  bgcolor=saddlebrown >
+            <font face=pristina size="5"><h2 align=center>Navigation</h2></font>
+            <font color=saddlebrown size=3.5 >
+                <ul >
+                    <li><a href="../menu_bar/FoodMenu.html"><font face=simsun color=seashell>Food Menu</font></a></li><hr>
+                    <li><font face=simsun color=seashell>Reservation</font></a><hr>
+                        <ul>
+                            <li><a href="../reservation/terms and conditions.html"><font face=simsun color=seashell>Table reservation</font></a></li><hr>
+                            <li><a href="../event/events terms and conditions.html"><font face=simsun color=seashell>Event reservation</font></a></li><hr>
+                        </ul>
+                    </li>
+                    <li>
+                        <font face=simsun color=seashell>Cancel reservation</font><hr>
+                        <ul>
+                            <li><a href="../reservation/cancelreservation.html"><font face=simsun color=seashell>Cancel Table reservation</font></a></li><hr>
+                            <li><a href="../event/cancel event reservation.html"><font face=simsun color=seashell>Cancel Event reservation</font></a></li><hr>
+                        </ul>
+
+                    </li>
+                    <li><a href="../delivery/delivery.html"><font face=simsun color=seashell>Delivery</font></a></li><hr>
+                    <li><a href="../order/order2.html"><font face=simsun color=seashell>Food Order</font></a></li><hr>
+                </ul>
+            </font>
+        </td>
+        <td background="../../resources/images/Foods.jpg" valign="top" >
+            <font size=5 color="white"align="center" face="Pristina" >
+                <h2 align="center">Welcome To Our Delivery Page</h2>
+                <marquee direction="left"><font face=SimSun (Headings Asian) color=antiquewhite><p><i>Best delivery in town</i></p></font></marquee>
+            </font>
+
+            <table align="center" width="60%">
+                <th colspan="2" align="center"><hr color="white">
+                    <em><font face="pristina" color="floralwhite" size="6" align="center">Delivery Form</font></em>
+                    <hr color="white">
+                </th>
+            </table>
+            <table align="center" width="65%"  cellspacing="0">
+                <form action="last.html">
+                    <tr align="center">
+                        <td align="center"><label for="fname"><font size="5" color="peru" face="pristina">First Name:</font></label></td>
+                        <td><input type="text" id="fname" name="fname" placeholder="Enter First Name" required></td>
+                    </tr>
+                    <tr align="center">
+                        <td align="center"> <label for="lname"><font size="5" color="peru" face="pristina">Last Name:</font></label></td>
+                        <td><input type="text" id="lname" name="lname" placeholder="Enter Last Name" required></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center"> <font size="5" color="peru" face="pristina">
+                            <label for="date">Date:</label></font>
+                        </td>
+                        <td align="center">
+                            <input type="date" name="date" id="date"  required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center"> <font size="5" color="peru" face="pristina">
+                            <label for="other">Any allergic ingredients</label></font>
+                        </td>
+                        <td align="center">
+                            <input type="text"  name="other" id="other"  placeholder="allergic type">
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td align="center" width="35%"><label for="order"><font size="5" color="peru" face="pristina">Your order</font></label> </td>
+                        <td align="center"><textarea  id="order"  name="order" rows="3" cols="21" placeholder="Place Your Order Here"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center"><font size="5" color="peru" face="pristina">
+                            <label for="quantity">Quantity of orders:</label></font>
+                        </td>
+                        <td align="center">
+                            <input type="number" name="quantity" id="quantity" placeholder="number of orders" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center"><font size="5" color="peru" face="pristina">
+                            <label for="phone">Phone Number:</label></font>
+                        </td>
+                        <td align="center">
+                            <select name="phone code" id="phone">
+                                <option value="+251">+251</option>
+                                <option value="+12">+120</option>
+                            </select>
+                            <input type="tel" id="phone1" name="phone" placeholder="967882862" pattern="[0-9]{9}" required >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="center"><font size="5" color="peru" face="pristina">
+                            <label for="address">Address:</label></font>
+                        </td>
+                        <td align="center">
+                            <textarea name="address" placeholder="enter your address" id="address" cols="20" rows="5" required></textarea>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit Delivery Information"><hr>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </td>
+        <td valign="top" width="18%" height="694px" bgcolor="whitesmoke">
+            <br>
+            <form id="form" role="search">
+                <input type="search" size="15" id="query" name="q" placeholder="Search" aria-label="search through site content">
+                <button>Search</button>
+            </form>
+            <hr>
+        </td>
+    </tr>
+</table>
+<table id="footer" valign="bottom" width="100%" cellspacing="1" >
+    <tr>
+        <td align="left">
+            <hr color="saddlebrown">
+            <hr color="saddlebrown">
+            <font size="4" color="saddlebrown">Follow us on</font>
+            <font size="6">
+                <a href="https://www.instagram.com"><img src="../../resources/images/insta2.png" width="20px" height="20px"></a>|
+                <a href="https://www.facebook.com/103469795537169/posts/103501355534013"><img src="../../resources/images/fb2.png" width="20px" height="20px"></a>|
+                <a href="https://t.me/mysteriaRestaurant"><img src="../../resources/images/tg2.png" width="20px" height="20px"></a>|
+                <a href="https://www.twitter.com"><img src="../../resources/images/twitter2.png" width="20px" height="20px"></a>
+            </font>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="2">Copyright &copy; Mysteria 2021/22, all rights reserved</td>
+    </tr>
+</table>
+</body>
+</html>
